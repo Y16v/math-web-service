@@ -1,0 +1,13 @@
+1. Create IAM roles with permission to create and deploy AWS services for application.
+2. Create a VPC, private and public subnets in different AZ.
+3. Create an Internet Gateway and a NAT Gateway.
+4. Create a Kubernets cluster using AWS EKS.
+5. Create an AutoScaling group with a Launch Configuration for EC2 instances.
+6. Configure the EKS control plane's security group and a AutoScaling security group, 
+so that the master node can talk with worker nodes.
+7. Configure a network in the EKS cluster.
+8. Create Kubernetes deployments and services with the math-web-service docker images.
+9. Create Cross zone load balancer for distributing traffic equally to EC2 instances.
+10. Create record set in Route53 which points to Load Balancer
+11. Deploy Jenkins in Kubernetes pods for CI/CD
+
