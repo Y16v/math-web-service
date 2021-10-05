@@ -8,7 +8,9 @@ pipeline {
         }
         stage('Build container') {
             steps{
-                sh 'echo Hello world !'
+                sh '''
+                    ./deploy.sh
+                '''
             }
         }
     }
