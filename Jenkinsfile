@@ -6,10 +6,10 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Build container') {
+        stage('Run script') {
             steps{
                 sh '''
-                    ./deploy.sh
+                    hostname
                 '''
             }
         }
